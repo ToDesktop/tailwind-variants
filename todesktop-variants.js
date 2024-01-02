@@ -5,7 +5,7 @@ const todesktopPlugin = plugin(function ({ addVariant, e }) {
   // Usage: <div class="todesktop:rounded-lg">...</div>
   addVariant("todesktop", ({ modifySelectors, separator }) => {
     modifySelectors(({ className }) => {
-      return `.todesktop .${e(`todesktop${separator}${className}`)}`;
+      return `html.todesktop .${e(`todesktop${separator}${className}`)}`;
     });
   });
 
@@ -20,7 +20,7 @@ const todesktopPlugin = plugin(function ({ addVariant, e }) {
     const variant = platformMap[platform];
     addVariant(variant, ({ modifySelectors, separator }) => {
       modifySelectors(({ className }) => {
-        return `.todesktop-platform-${platform} .${e(
+        return `html.todesktop-platform-${platform} .${e(
           `${variant}${separator}${className}`
         )}`;
       });
