@@ -1,6 +1,6 @@
 {
   "name": "@todesktop/tailwind-variants",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "todesktop-variants.js",
   "scripts": {
