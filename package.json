@@ -1,0 +1,23 @@
+{
+  "name": "@todesktop/tailwind-variants",
+  "version": "1.0.0",
+  "description": "",
+  "main": "todesktop-variants.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tailwindcss",
+    "plugin",
+    "todesktop",
+    "variants"
+  ],
+  "author": "Dave Jeffery <dave@todesktop.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.4.0"
+  },
+  "peerDependencies": {
+    "tailwindcss": "^3.4.0"
+  }
+}
