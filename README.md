@@ -54,7 +54,7 @@ Once the plugin is installed and enabled, you can use the variants in your Tailw
 
 ```html
 <!-- On Mac desktop app make `div` rounded with a shadow -->
-<div class="w-20 h-20 bg-blue windows:rounded-lg todesktop:shadow-lg">
+<div class="w-20 h-20 bg-blue mac:rounded-lg mac:shadow-lg">
   <!-- ... -->
 </div>
 ```
